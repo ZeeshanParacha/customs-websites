@@ -1,0 +1,317 @@
+.border
+{
+    background-color: #00C4FF;
+    border: none !important;
+    margin-top: 10px;
+}
+
+.border h4
+{
+    opacity: 0;
+    margin: 0;
+}
+
+.contact1 
+{
+    background-image: url(../images/bg3.png);
+}
+
+.contact1 .col1
+{
+    padding: 0;
+}
+
+.contact1 h3
+{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact2
+{
+    background-color: #F6F6F6;
+}
+
+.contact2 .col1
+{
+    text-align: center;
+}
+
+.contact2 .col1 h2
+{
+    font-weight: 700;
+    color: black;
+}
+
+.contact2 .col1 .h2
+{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact2 .col1 h2::after
+{
+    content: '';
+    background-color: #FE686E;
+    width: 45px;
+    height: 5px;
+    position: absolute;
+    bottom: -23%;
+    right: 48%;
+}
+
+.contact2 .col1 .div1 
+{
+    background-color: white;
+    width: 55%;
+    margin: auto;
+}
+
+.contact2 .col1 .div1 .div11
+{
+    width: 49%;
+    display: inline-block;
+}
+
+.contact2 .col1 .div1 .div12
+{
+    width: 49%;
+    display: inline-block;
+}
+
+.contact2 .col1 .div1 .p1
+{
+    display: inline-block;
+    font-weight: 800;
+    color: #3F99E5;
+    vertical-align: sub;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact2 .col1 .div1 .p2
+{
+    display: inline-block;
+    font-weight: 800;
+    color: #3F99E5;
+    vertical-align: sub;
+}
+
+@media (max-width: 1199px)
+{
+    .contact2 .col1 .div1 
+    {
+        width: 65%;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .contact2 .col1 .div1 .div11 
+    {
+        width: 40%;
+    }
+
+    .contact2 .col1 .div1 .p1 
+    {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .contact2 .col1 .div1 
+    {
+        width: 65%;
+    }
+
+    .contact2 .col1 .div1 .div11 
+    {
+        width: 50%;
+    }
+
+    .contact2 .col1 .div1 .div12 
+    {
+        width: 75%;
+    }
+}
+
+@media (max-width: 481px)
+{
+    .contact2 .col1 .div1 .div11 
+    {
+        width: 60%;
+    }
+
+    .contact2 .col1 .div1 .div12 
+    {
+        width: 100%;
+    }
+}
+
+.contact2 .col2 
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.contact2 .col2 a
+{
+    background-color: #002A4D;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.contact2 .row3
+{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contact2 .col3
+{
+    background-color: #3F98E4;
+    padding-bottom: 20px;
+}
+
+.contact2 .col3 h4
+{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact2 .col3 form .div1
+{
+    width: 49%;
+    display: inline-block;
+}
+
+.contact2 .col3 form .div2
+{
+    width: 49%;
+    display: inline-block;
+}
+
+.contact2 .col3 form .div1 label
+{
+    color: white;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.contact2 .col3 form .div1 input
+{
+    border: none;
+    width: 90%;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.contact2 .col3 form .div2 label
+{
+    color: white;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.contact2 .col3 form .div2 input
+{
+    border: none;
+    width: 90%;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.contact2 .col3 form .div2 textarea
+{
+    width: 90%;
+    height: 206px;
+    margin-left: 20px;
+    border: none;
+    top: 10px;
+    position: relative;
+}
+
+.contact2 .col3 form .div2 .label1
+{
+    margin-bottom: 0;
+}
+
+.contact2 .col3 form .div3 input[type="submit"] {
+    float: right;
+    margin-right: 50px;
+    padding: 5px 30px 5px 30px;
+    background-color: #002A4D;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 1199px)
+{
+    .contact2 .col3 form .div3 input[type="submit"] 
+    {
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .contact2 .col3 form .div3 input[type="submit"] 
+    {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .contact2 .col3 form .div1 
+    {
+        width: 100%;
+    }
+
+    .contact2 .col3 form .div2 
+    {
+        width: 100%;
+    }
+
+    .contact2 .col3 form .div3 input[type="submit"] 
+    {
+        margin-right: 23px;
+    }
+}
+
+.contact2 .row4
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 30px;
+}
+
+.contact2 .col4 iframe
+{
+    width: 100%;
+    height: 350px;
+}
